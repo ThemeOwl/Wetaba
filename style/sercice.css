@@ -1,0 +1,86 @@
+.front-img-about{
+    background-image: url(../images/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+}
+.opacity{
+    background-color: #28262b;
+    height: 100vh;
+    opacity: .4;
+}
+.title-txt{
+    width: 100%;
+    text-align: center;
+}
+.title-txt h1{
+    color: #fff;
+    font-size: 7rem;
+}
+
+
+/*our services*/
+.our-services{
+    
+}
+.service-img-1{
+    background-image: url(../images/docusign-BbSBf5uv50A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.service-img-2{
+    background-image: url(../images/content-pixie-62YQFwl7xSQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+.service-img-3{
+    background-image: url(../images/dollar-gill-uKrYiPk0NAY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+.service-img-4{
+    background-image: url(../images/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+.service-img-5{
+    background-image: url(../images/yogendra-singh-HrpYHchKb5Y-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+.service-img-6{
+    background-image: url(../images/dollar-gill-uKrYiPk0NAY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.service-container{
+    background-image: url(../images/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg);
+    filter: brightness(80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 7em 0em;
+}

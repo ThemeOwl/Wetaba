@@ -1,0 +1,59 @@
+
+header{
+    border-color: red;
+    box-shadow: 2px 2px 2px #ececee;
+}
+.contect-container{
+    background-color: #fff;
+}
+.contect-whole{
+    display: flex;
+    background-color: #fff;
+}
+.contect-data{
+    padding: 7em 5em 7em 5em;
+}
+
+.contect-data h1{
+    text-align: center;
+    color: #28262b;
+    font-size: 2.5rem;
+    padding-bottom: 1em;
+}
+
+.contect-data h1::after{
+    content:'';
+    width: 80px;
+    height: 2px;
+    margin: auto;
+    display: block;
+    background-color: #54be73;
+}
+.contect-data h3{
+    color: #28262b;
+    font-size: 1.3em;
+    padding-bottom: 1.2em;
+}
+
+.contect-data p{
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-top: .2em;
+}
+
+.app-btn{
+    padding: .5em 1.5em;
+    background-color: #54be73;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border: 1px solid #54be73;
+    border-radius: 30px;
+    transition: .5s;
+    margin-top: 50px;
+}
+.app-btn:hover{
+    background-color: #28262b;
+    border: 1px solid #28262b;
+}

@@ -1,0 +1,316 @@
+@media screen and (max-width: 895px) {
+    .burger{
+        display: block;
+    }
+    .order{
+        margin-left: 100px;
+    }
+    .cross{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        height: 100vh;
+        width: 100%;
+        z-index: 2;   
+        padding: 30px 0px 0px 30px;
+    }
+    .nav-links ul li {
+        display: block;
+        padding: 5px 0px;
+    }
+    .nav-links ul li::after{
+        margin: 0;
+    }
+    .nav-links ul li:hover:after{
+        width: 10%;
+    }
+    #active::after{
+        content: none;
+    }
+    .title-txt h1{
+        font-size: 2.5rem;
+    }
+    .title-txt h3{
+        font-size: 1.5rem;
+    }
+    
+    .title-txt{
+        padding: 7.5em 0em 0em 2em;
+    }
+    
+    .service-opt-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .service-opt-box{
+        padding: 1em 0em;
+    }
+    .team-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 50px;
+    }
+    .service-whole-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .service-box{
+        padding: 20px;
+    }
+    .service-box p{
+        font-size: 1.3rem;
+    }
+    .form-container img{
+        height: 100vh;
+    }
+    .contact{
+        padding-top: 1em;
+    }
+    .contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"],
+.contact textarea {
+    padding: 10px 20px;
+}
+}
+
+
+@media screen and (max-width: 770px){
+    .service-opt-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .services-txt h4{
+        font-size: 1.3rem;
+    }
+
+    .team-container{
+        grid-template-columns: repeat(1,1fr);
+        padding: 1em .5em;
+    }
+    .team-img{
+        height: 100vh;
+    }
+    .team-img img{
+        height: 100vh;
+    }
+    .team-txt p{
+        font-size: 1.3rem;
+    }
+    footer{
+        display: block;
+    }
+    .policy{
+        text-align: center;
+    }
+    .policy p{
+        line-height: 10vh;
+    }
+    .social-icons{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .social-icons ul{
+        list-style-type: none;
+        justify-content: center;
+    }
+
+    .contact{
+        padding-top: 1em;
+        padding-left: 1.5em;
+        width: 100%;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"],
+    .contact input[type="tel"],
+    .contact textarea {
+        padding: 10px 20px;
+    }
+    fieldset {
+        min-width: 96%;
+    }
+
+}
+
+@media screen and (max-width: 520px){
+    .order{
+        padding: 1em 1em;
+        font-size: .65rem;
+        display: none;
+    }
+    .logo{
+        padding-left: 1em;
+    }
+    
+}
+@media screen and (max-width: 476px){
+    .social-icons{
+        padding-right: 0px;
+    }
+    .social-icons ul li a{
+        font-size: 1rem;
+        padding: 0em .5em;
+    }
+    .policy p{        
+    line-height: 10vh;
+    font-size: 10px;
+    }
+
+    .title-txt h1{
+        font-size: 2rem;
+    }
+    .title-txt h3{
+        font-size: 1.2rem;
+    }
+    .title-txt{
+        padding: 4em 0em 0em 2em;
+    }
+    .tested{
+        padding: .5em 1em;
+    }
+    .front-img{
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .title-txt h1{
+        font-size: 1.5rem;
+    }
+    .title-txt h3{
+        font-size: 1rem;
+    }
+    .title-txt{
+        padding: 5em 0em 0em 2em;
+    }
+    .tested{
+        padding: .5em 1em;
+        font-size: .8rem;
+    }
+}
+
+/*---About Us responsive---*/
+@media screen and (max-width: 895px){
+    .front-img-about{
+        height: 50vh;
+    }
+    .opacity{
+        height: 50vh;
+    }
+    .title-txt h1{
+        font-size: 5rem;
+    }
+
+    .about-section{
+        padding: 6em 3em;
+    }
+    .about-section h1{
+        font-size: 2.8rem;
+    }
+
+    .our-best{
+        background-color: #F9F9F9;
+        padding: 6em 3em;
+    }
+
+    .about-opt-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .team-about-container{
+        grid-template-columns: repeat(2,1fr);
+        background-size: contain;
+        padding: 1em 3em;
+    }
+    .team-about-img-1,.team-about-img-2,.team-about-img-3,.team-about-img-4{
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .title-txt h1{
+        font-size: 3.8rem;
+    }
+
+    .team-about-container{
+        grid-template-columns: repeat(1,1fr);
+        background-size: ;
+        padding: 1em .5em;
+    }
+    .team-about-img-1,.team-about-img-2,.team-about-img-3,.team-about-img-4{
+        height: 100vh;
+    }
+
+    
+    .about-contect{
+        width: 95%;
+    }
+    .about-contact input[type="text"],
+    .about-contact input[type="email"],
+    .about-contact input[type="tel"],
+    .about-contact textarea {
+        padding: 10px 20px;
+    }
+    fieldset {
+        min-width: 96%;
+    }
+}
+
+
+@media screen and (max-width: 545px){
+    .title-txt h1{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 476px){
+    .title-txt h1{
+        margin-top: 2.5em;
+        font-size: 2.1rem;
+    }
+    .about-section h1{
+        font-size: 2.2rem;
+    }
+}
+
+
+/*---Services page---*/
+@media screen and (max-width: 895px){
+    .service-opt-container{
+        grid-column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .our-services{
+        padding: 6em 1em;
+    }
+    .service-opt-container{
+        grid-row-gap: 30px;
+    }
+    .service-img-1,.service-img-2,.service-img-3,.service-img-4,.service-img-5,.service-img-6{
+        background-size: cover;
+    }
+    .service-opt-box{
+        padding: 1em .1em;
+    }
+    .services-txt h2{
+        padding-top: 1em;
+    }
+}
+
+
+
+/*---Contect page---*/
+@media screen and (max-width: 895px){
+    .contect-whole{
+        flex-direction: column;
+    }
+    .contect-data{
+        text-align: center;
+        padding: 3em 3em;
+    }
+}
